@@ -12,6 +12,7 @@ spring:
     show-sql: true
   hibernate:
     ddl-auto: validate
+    #se agregan las mismas conexiones a base que usa TVCMANAGER, hasta que nos entreguen la credenciales para este proyecto
   datasource:
     url: jdbc:db2://scdbesrva.sc.pt:50000/TOYXTAPS
     username: db2inst1
@@ -39,6 +40,11 @@ springdoc:
 log4j:
   configuration:
     path: log4j-local.properties
+
+#Ficheiro de configuracao da SC
+sc:
+  config:
+    file: ""
 
 
 #customom properties ex local url

@@ -2,7 +2,6 @@ package com.gsc.portalapps.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.RestController;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
@@ -24,18 +23,18 @@ public class SwaggerConfig {
     @Bean
     Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .ignoredParameterTypes(AuthenticationPrincipal.class)
+                //.ignoredParameterTypes(AuthenticationPrincipal.class)
                 .select()
                 .apis(RequestHandlerSelectors.withClassAnnotation(RestController.class))
                 .paths(PathSelectors.any())
                 .build()
-                .securitySchemes(Arrays.asList(apiKey()))
-                .securityContexts(Arrays.asList(securityContext()))
+                //.securitySchemes(Arrays.asList(apiKey()))
+                //.securityContexts(Arrays.asList(securityContext()))
                 .apiInfo(apiEndPointsInfo());
     }
     private ApiInfo apiEndPointsInfo() {
-        return new ApiInfoBuilder().title("Module PORTAL APSS")
-                .description("This module contains the functionalities related to the PORTAL APPS module")
+        return new ApiInfoBuilder().title("Module Portal Apps")
+                .description("This module contains the functionalities related to the Portal Apps module")
                 .version("1.0.0")
                 .build();
     }

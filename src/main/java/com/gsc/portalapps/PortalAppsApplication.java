@@ -1,13 +1,13 @@
-package com.gsc.emv;
+package com.gsc.portalapps;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmvApplication {
+public class PortalAppsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmvApplication.class, args);
+		SpringApplication.run(PortalAppsApplication.class, args);
 	}
 
 }

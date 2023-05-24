@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RequestMapping("${app.baseUrl}")
-@Api(value = "",tags = "TVC MANAGER")
+@Api(value = "",tags = "PORTAL APPS")
 @RestController
 @CrossOrigin("*")
 public class PortalAppsController {
 
         @GetMapping(value="/")
         public String test(){
-            return "TVCManager!!";
+            return "Portal Apps!!";
         }
 }

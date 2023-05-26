@@ -35,7 +35,7 @@ springdoc:
 # loggin config file by profile
 log4j:
   configuration:
-    path: log4j-dev.properties
+    path: log4j-staging.properties
 
 #Ficheiro de configuracao da SC
 sc:

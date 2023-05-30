@@ -12,12 +12,12 @@ spring:
     show-sql: true
   hibernate:
     ddl-auto: validate
-    #se agregan las mismas conexiones a base que usa TVCMANAGER, hasta que nos entreguen la credenciales para este proyecto
+
   datasource:
-    url: jdbc:db2://scdbesrva.sc.pt:50000/TOYXTAPS
-    username: db2inst1
-    password: db2admin
-    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    url: jdbc:as400://caetano2.sc.pt
+    username: JAVAUSER
+    password: JAVAUSER
+    driver-class-name: com.ibm.as400.access.AS400JDBCDriver
 
   #swagger
   mvc:

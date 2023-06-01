@@ -50,5 +50,9 @@ sc:
 #customom properties ex local url
 app:
   baseUrl: /portalapps
+  server:
+    type: 10
+  auth:
+    token-name: accessToken
 
 

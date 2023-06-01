@@ -1,4 +1,4 @@
-package com.gsc.bdcrm.config.environment;
+package com.gsc.portalapps.config.environment;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

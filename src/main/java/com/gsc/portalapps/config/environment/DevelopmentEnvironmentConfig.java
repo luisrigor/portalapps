@@ -1,4 +1,4 @@
-package com.gsc.bdcrm.config.environment;
+package com.gsc.portalapps.config.environment;
 
 import com.gsc.a2p.invoke.A2pApiInvoke;
 import com.gsc.scgscwsauthentication.invoke.SCAuthenticationInvoke;
@@ -6,8 +6,6 @@ import com.gsc.scwscardb.core.invoke.CarInvoker;
 import com.gsc.scwscardb.util.DATA;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
-
-import java.util.HashMap;
 import java.util.Map;
 
 

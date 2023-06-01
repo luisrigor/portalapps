@@ -1,4 +1,4 @@
-package com.gsc.bdcrm.config.environment;
+package com.gsc.portalapps.config.environment;
 
 import com.gsc.ws.util.DATA;
 import lombok.NoArgsConstructor;

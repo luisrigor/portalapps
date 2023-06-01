@@ -1,4 +1,4 @@
-package com.gsc.bdcrm.config.environment;
+package com.gsc.portalapps.config.environment;
 
 import com.gsc.a2p.invoke.A2pApiInvoke;
 import com.gsc.scgscwsauthentication.invoke.SCAuthenticationInvoke;
